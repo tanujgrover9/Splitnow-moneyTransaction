@@ -1,0 +1,58 @@
+.container {
+    border-width: 2px;
+    border-color: hsla(259, 100%, 71%, 1);
+    border-style: solid;
+    padding: 20px;
+    height: 10%;
+    width: 80%;
+    margin: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    /* overflow-y: auto; */
+}
+
+.contsec {
+    margin: 20px;
+    overflow-y: auto;
+}
+
+.container h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+.container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+table th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #9b9898;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+td img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.status-success {
+    color: hsl(150, 100%, 40%);
+    font-weight: bold;
+}

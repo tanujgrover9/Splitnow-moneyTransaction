@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 80%;
+  max-width: 1200px; /* Limiting width for larger screens */
+  margin: 0 auto; /* Centering the container */
+  border-radius: 10px;
+  margin-top: 10px; /* Adjusting top margin */
+  margin-bottom: 20px; /* Adjusting bottom margin */
+}
+
+.main-container h1,
+.main-container p {
+  margin-left: 25px;
+}
+
+.all-stats {
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 50px;
+  height: auto; /* Allowing height to adjust based on content */
+  justify-content: space-evenly;
+}
+
+.dashbord {
+  display: flex;
+  border-radius: 10px;
+}
+
+.side-bar {
+  width: 20%;
+  max-width: 300px; /* Limiting width for smaller screens */
+  background-color: rgba(232, 229, 235, 0.663);
+  padding: 24px 30px;
+  height: 450px;
+  border-radius: 20px 0 0 0;
+  margin: 10px;
+  margin-top: 100px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.side-bar img {
+  height: 30px;
+  margin-right: 10px;
+  background: none ;
+}
+
+.side-bar a {
+  color: rgb(16, 15, 15);
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.side-bar a:hover {
+  background-color: rgba(186, 159, 212, 0.663);
+  color: rgb(59, 28, 183);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: 4px solid rgb(59, 28, 183);
+}
+
+.a-solid {
+  margin-right: 20px;
+}
+
+.side-bar h5 {
+  margin-top: 40px;
+}
+
+.all-stats h3 {
+  margin-left: 80px;
+}
+
+.stats-1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .main-container {
+      width: 90%;
+  }
+
+  .side-bar {
+      width: 25%;
+      max-width: 250px; /* Adjusting max-width for smaller screens */
+      margin-top: 50px; /* Adjusting top margin */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+      width: 100%;
+  }
+
+  .dashbord {
+      flex-direction: column;
+  }
+
+  .side-bar {
+      width: 100%;
+      max-width: none; 
+      margin-top: 20px;
+  }
+
+  .stats-1 {
+      flex-direction: column;
+      align-items: center;
+      
+  }
+
+  .all-stats h3 {
+      margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-container {
+      width: 100%;
+  }
+
+  .side-bar {
+      width: 100%;
+      padding: 20px;
+      max-width: none; /* Resetting max-width for full width */
+  }
+
+  .all-stats h3 {
+      margin-left: 10px;
+      font-size: 18px;
+  }
+}

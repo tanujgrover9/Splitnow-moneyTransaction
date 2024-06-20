@@ -1,0 +1,77 @@
+
+.transactionDetails {
+  margin: 10px 10px;
+  border: 1px solid #916be3;
+  padding: 8px;
+  width: 100%;
+  height: 700px; 
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+/* .tbldtl{
+  position: fixed;
+  z-index: 11;
+} */
+.tblTrxn{
+
+}
+
+.transactionDetails .trxnTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transactionDetails .trxnTop h3 {
+  margin: 4px;
+}
+
+.transactionDetails .trxnTop button {
+  background-color: #ffffff;
+  border: 1px solid #a2a1a833;
+  border-radius: 12px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+.transactionDetails .tblTrxn {
+  width: 95%;
+  margin: auto;
+  margin-top: 16px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.separator-row td {
+  border-top: 1px solid #746161;
+}
+
+.transactionDetails .tblTrxn thead th {
+  color: #a2a1a8;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.transactionDetails .tblTrxn tbody tr {
+  margin-bottom: 2px;
+}
+
+.transactionDetails .tblTrxn tbody tr td {
+  color: #16151c;
+  font-size: 16px;
+  padding: 6px 4px;
+  text-align: center;
+}
+
+.transactionDetails .tblTrxn tbody tr td.success {
+  background-color: #3fc28a1a;
+  color: #3fc28a;
+  padding: 4px;
+  border-radius: 12px;
+}
+
+.transactionDetails .tblTrxn tbody tr td.fail {
+  background-color: #c23f3f1a;
+  color: #d71313;
+  padding: 4px;
+  border-radius: 12px;
+}

@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+@media screen and (max-width: 768px) { 
+  .main {
+    
+      flex-direction: column;
+      align-items: center;
+  }
+}

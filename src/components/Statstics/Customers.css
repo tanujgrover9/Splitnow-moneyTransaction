@@ -1,0 +1,64 @@
+body {
+    font-family: 'Lexend', sans-serif;
+  }
+
+.customers {
+    padding: 20px;
+    width: 100%;
+  }
+  
+  
+  .customers h1 {
+    font: lexend;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .customers table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .customers table, .customers th, .customers td {
+    border: 1px solid #916BE3;
+  }
+  
+  .customers th, .customers td {
+    padding: 8px;
+    text-align: left;
+    border: none;
+  }
+/*   
+  .customers th {
+    background-color: #f2f2f2;
+  } */
+  
+  .account-type-On-time-Payees {
+    color: green;
+  }
+  
+  .account-type-Late-Payee {
+    color: red;
+  }
+  
+  .account-type-Due-pending-of-Payee {
+    color: 104ff1;
+    text-align: right;
+  }
+
+  .right-align {
+    text-align: right;
+  }
+
+  .name-column {
+    width: 50%;
+  }
+
+  .customer-photo {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  
